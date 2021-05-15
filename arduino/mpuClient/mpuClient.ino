@@ -13,8 +13,8 @@ const uint16_t port = 8888;
 const char* host = "192.168.178.37";
 
 // Connection details
-const char* ssid = "";
-const char* password = "";
+const char* ssid = "FRITZ!Box 7530 VI";
+const char* password = "71343288553373972238";
 
 // Setup
 void setup() {
@@ -60,7 +60,12 @@ void setup() {
 
   // Device Details
   Serial.print("IP address: ");
-  Serial.println(WiFi.localIP());  
+  Serial.println(WiFi.localIP());
+
+  // Position setting
+  uint16_t x = 0;
+  uint16_t y = 0;
+  uint16_t z = 0;
   
 }
 
